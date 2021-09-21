@@ -1,3 +1,16 @@
-baseURL = '/'
+baseURL = 'https://singularoba.ge/'
 languageCode = 'en-us'
-title = 'singularoba.ge'
+title = 'singularoba.ge (C) 2021 D-Tech LLC'
+theme = 'sauce'
+
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
